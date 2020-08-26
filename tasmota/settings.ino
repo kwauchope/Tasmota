@@ -1087,6 +1087,9 @@ void SettingsDefaultSet2(void)
   flag3.pcf8574_ports_inverted |= PCF8574_INVERT_PORTS;
   flag4.zigbee_use_names |= ZIGBEE_FRIENDLY_NAMES;
 
+  //ATM90E26
+  flag4.atm90e26_channel2 |= ATM90E26_CHANNEL2;
+
   Settings.flag = flag;
   Settings.flag2 = flag2;
   Settings.flag3 = flag3;

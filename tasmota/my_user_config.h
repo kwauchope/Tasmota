@@ -315,6 +315,7 @@
 #define SHUTTER_SUPPORT        false             // [SetOption80] Enable shutter support
 #define PCF8574_INVERT_PORTS   false             // [SetOption81] Invert all ports on PCF8574 devices
 #define ZIGBEE_FRIENDLY_NAMES  false             // [SetOption83] Enable Zigbee FriendlyNames instead of ShortAddresses when possible
+#define ATM90E26_CHANNEL2      true              // [SetOption97] Enable ATM90E26 second channel
 
 /*********************************************************************************************\
  * END OF SECTION 1
